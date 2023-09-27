@@ -15,8 +15,19 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World!"', () => {
+    // Should return a string "Hello World!" when getHello method is called.
+    it('should return "Hello World!" when getHello method is called', () => {
       expect(appController.getHello()).toBe('Hello World!');
+    });
+    // Should return a string.
+    it('should return a string', () => {
+      const result = appController.getHello();
+      expect(typeof result).toBe('string');
+    });
+    // Should return a string with length less than 100.
+    it('should return a string with length less than 100', () => {
+      const result = appController.getHello();
+      expect(result.length).toBeLessThan(100);
     });
   });
 });
