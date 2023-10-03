@@ -11,7 +11,7 @@ export class AppController {
   // Injectando el servicio AppService en el constructor de la clase controladora.
   constructor(private readonly appService: AppService) {}
 
-  // Decorando el método getHello con el decorador Get(), indicando que es un endpoint de tipo GET.
+  // Decorando el método getHello con el decorador Get(), indicando que es un endpoint de tipo HTTP GET.
   @Get()
   // Definiendo la respuesta exitosa del método getHello con un decorador ApiOkResponse.
   @ApiOkResponse({
