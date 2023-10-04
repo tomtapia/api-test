@@ -1,73 +1,79 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# API Test Project
+The API Test project is built using NestJS. It focuses on CI/CD integration and is thoroughly documented using Swagger. This application serves as an example for efficient and scalable server-side applications.
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## Table of Contents 
+1. [How to Install and Run the Project](#how-to-install-and-run-the-project)
+2. [Credits](#credits)
+3. [License](#license)
+4. [Badges](#badges)
+5. [How to Contribute](#how-to-contribute)
+6. [Tests](#tests)
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
-
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
-## Installation
+## How to Install and Run the Project
+To set up the project, use the following steps:
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+To run the application:
 
 ```bash
 # development
 $ npm run start
-
 # watch mode
 $ npm run start:dev
-
 # production mode
 $ npm run start:prod
 ```
 
-## Test
+## Tests
 
 ```bash
 # unit tests
 $ npm run test
-
 # e2e tests
 $ npm run test:e2e
-
 # test coverage
 $ npm run test:cov
 ```
 
-## Support
+## Credits
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- [@tomtapia](https://github.com/tomtapia)
 
 ## License
+This project is licensed under the MIT License. The license permits use, modification, and distribution with few restrictions. The key points are:
 
-Nest is [MIT licensed](LICENSE).
+- Free use, modification, and distribution.
+- The software is provided "as is", without warranty.
+- Proper attribution must be given.
+
+For the full license text, please see the [LICENSE](LICENSE) file in this repository.
+
+## Badges
+
+Here are some informative badges indicating various statuses of the project:
+
+[![Coverage](https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9)](https://coveralls.io/github/nestjs/nest?branch=master)
+## How to Contribute
+
+We welcome contributions from the community. If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b new-feature`).
+3. Make your changes.
+4. Run tests to ensure everything is working.
+5. Commit your changes (`git commit -am 'Add some feature'`).
+6. Push to the branch (`git push origin new-feature`).
+7. Create a new Pull Request.
+
+Don't forget to give your PR a meaningful name and describe all applied changes and additions.
+
+## Stay in Touch
+
+For further inquiries or to stay up-to-date with the project:
+
+- Connect on [LinkedIn](https://www.linkedin.com/in/ttapia/)
+
+I appreciate your interest and contribution to the project! Let's build something awesome together!
